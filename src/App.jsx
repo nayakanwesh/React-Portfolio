@@ -150,7 +150,7 @@ const handleSubmit = async (e) => {
       title: "Video Library Project",
       description: "My video library project is a full-stack web app using React, Node.js, and MongoDB. It enables users to browse, search, and manage videos with authentication and a responsive UI, ensuring a seamless and intuitive user experience",
       technologies: ["Html","Css","React","MUI", "Redux","Node Js","Express", "Firebase", "Material UI","Mongo DB"],
-      image: "../public/video.png",
+      image: "./public/video.png",
       github: "https://github.com/nayakanwesh",
       live: "https://github.com/nayakanwesh"
     },
@@ -168,7 +168,7 @@ const handleSubmit = async (e) => {
       title: "Tourism App",
       description: "My first app, Tourism, is a simple static website built using only HTML and CSS. It showcases popular travel destinations with beautiful layouts, images, and descriptions. The website emphasizes a clean design, easy navigation, and an engaging user experience",
       technologies: ["HTML","CSS","BootStrap"],
-      image: "../public/tourism.png",
+      image: "./public/tourism.png",
       github: "https://github.com/nayakanwesh",
       live: "https://tourism-tawny.vercel.app/"
     }
@@ -522,7 +522,7 @@ const handleSubmit = async (e) => {
             >
               <div className="abstract-shape"></div>
               <div className="image-container">
-                <img src="../public/photo.jpg" alt="Profile" />
+                <img src="./public/photo.jpg" alt="Profile" />
               </div>
             </motion.div>
           </div>
@@ -559,7 +559,7 @@ const handleSubmit = async (e) => {
               transition={{ delay: 0.2 }}
             >
               <div className="image-container">
-                <img src="../public/dppic.jpg" alt="About Me" />
+                <img src="./public/dppic.jpg" alt="About Me" />
               </div>
               <div className="experience-badge">
                 <span className="number"></span>
